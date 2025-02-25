@@ -40,13 +40,14 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(project(":testmaven2"))
 }
 
 mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
 
-    coordinates("io.github.goddb123", "kmtest-testmaven", "1.0.0")
+    coordinates("io.github.goddb123", "kmtest-testmaven", "1.0.1")
 
     pom {
         name = "kmtestTestmaven"

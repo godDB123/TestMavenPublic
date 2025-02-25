@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "TestMavenPublic"
 include(":app")
 include(":testmaven")
+include(":testmaven2")
