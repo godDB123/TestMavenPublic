@@ -47,7 +47,7 @@ mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
 
-    coordinates("io.github.goddb123", "kmtest-testmaven", "1.0.1")
+    coordinates("io.github.goddb123", "kmtest-testmaven", "1.0.2")
 
     pom {
         name = "kmtestTestmaven"
